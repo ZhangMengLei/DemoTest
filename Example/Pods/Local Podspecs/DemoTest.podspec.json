@@ -1,0 +1,22 @@
+{
+  "name": "DemoTest",
+  "version": "0.1.0",
+  "summary": "A short description of DemoTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangmenglei/DemoTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangmenglei": "595394885@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangmenglei/DemoTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DemoTest/Classes/**/*"
+}
