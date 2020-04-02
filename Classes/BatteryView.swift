@@ -49,8 +49,8 @@ class BatteryView: UIView {
         shapeLayer.strokeColor = UIColor.white.cgColor
         shapeLayer.fillColor = UIColor.clear.cgColor
         shapeLayer.lineWidth = 1.0
-        shapeLayer.lineJoin = .round
-        shapeLayer.lineCap = .round
+//        shapeLayer.lineJoin = .round
+//        shapeLayer.lineCap = .round
         shapeLayer.path = path.cgPath
         shapeLayer.opacity = 0.35
         layer.addSublayer(shapeLayer)
@@ -71,8 +71,8 @@ class BatteryView: UIView {
             batteryLayer.fillColor = UIColor.white.cgColor
         }
         batteryLayer.lineWidth = 1.0
-        batteryLayer.lineJoin = .round
-        batteryLayer.lineCap = .round
+//        batteryLayer.lineJoin = .round
+//        batteryLayer.lineCap = .round
         batteryLayer.opacity = 1.0
         batteryLayer.path = batteryPath.cgPath
         layer.addSublayer(batteryLayer)
@@ -83,8 +83,8 @@ class BatteryView: UIView {
         arrowLayer.strokeColor = UIColor.clear.cgColor
         arrowLayer.fillColor = UIColor.white.cgColor
         arrowLayer.lineWidth = 1.0
-        batteryLayer.lineJoin = .round
-        arrowLayer.lineCap = .round
+//        batteryLayer.lineJoin = .round
+//        arrowLayer.lineCap = .round
         arrowLayer.path = arrowPath.cgPath
         arrowLayer.opacity = 0.35
         layer.addSublayer(arrowLayer)
@@ -93,7 +93,7 @@ class BatteryView: UIView {
             let lightningLayer = CALayer()
             lightningLayer.frame = CGRect(x: 0.0, y: 0.0, width: frame.width - 5.0, height: frame.height)
             lightningLayer.contents = UIImage(named: "IconBatteryCharge")?.cgImage
-            lightningLayer.contentsGravity = .resizeAspect
+//            lightningLayer.contentsGravity = .resizeAspect
             layer.addSublayer(lightningLayer)
         }
     }

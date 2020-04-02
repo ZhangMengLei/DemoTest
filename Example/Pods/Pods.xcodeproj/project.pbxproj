@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DE4965F2435EA65002607A5 /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4965E2435EA65002607A5 /* BatteryView.swift */; };
+		1DE4966B2435EBFA002607A5 /* Bat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE496672435EBFA002607A5 /* Bat.swift */; };
+		1DE4966C2435EBFA002607A5 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 1DE496682435EBFA002607A5 /* .gitkeep */; };
+		1DE4966D2435EBFA002607A5 /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE496692435EBFA002607A5 /* BatteryView.swift */; };
+		1DE4966E2435EBFA002607A5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4966A2435EBFA002607A5 /* ReplaceMe.swift */; };
 		28AA0EEC90ED194A062E97F19586A4A1 /* DemoTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F27DB1BED170C21DE542B616D70514A /* DemoTest-dummy.m */; };
 		3FC43D56150CC6C82824CCEB17F48C96 /* Pods-DemoTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09429ED52D43F20B70E43CFEDEF84409 /* Pods-DemoTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4647F52A4A4B8B800491574354F3F63B /* Pods-DemoTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A841A99ABAE0428E8EE819F28BD66F /* Pods-DemoTest_Example-dummy.m */; };
 		649412DD3150ED6F8B61A7799DCEBF5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6B37463A23A9E630351D6260E4ACF821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9F66EDAEE1B211990105A4E90822AD66 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22BE24FE120C27D3095FADA8F6FA634 /* ReplaceMe.swift */; };
 		A62B339A5C72C157A39F830DAC14A48C /* Pods-DemoTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 321CD4C041C25DD577FBDB6AC9322F13 /* Pods-DemoTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0EB29E55759DA07B81860133ACD2B9D /* DemoTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B815B8220E9F3054A5978F52E284350 /* DemoTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECDB96ACDDD098C674BD43389D9E62F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -45,7 +47,10 @@
 		1AB4EF6763EBBDC3DCDA82BDBBE6FEE1 /* Pods-DemoTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1B815B8220E9F3054A5978F52E284350 /* DemoTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemoTest-umbrella.h"; sourceTree = "<group>"; };
 		1DD471B38B6F0E03CDDED81CACA1D107 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		1DE4965E2435EA65002607A5 /* BatteryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
+		1DE496672435EBFA002607A5 /* Bat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bat.swift; sourceTree = "<group>"; };
+		1DE496682435EBFA002607A5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		1DE496692435EBFA002607A5 /* BatteryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
+		1DE4966A2435EBFA002607A5 /* ReplaceMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		1F848FB4E4E51D0A942DCD100A5B908C /* DemoTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemoTest-prefix.pch"; sourceTree = "<group>"; };
 		280D36AD0F8D3BE43EB5D74D0BFCC2A9 /* Pods-DemoTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -64,7 +69,6 @@
 		A30EB6A0440B37929CA2B3E23D794C98 /* Pods-DemoTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoTest_Tests.modulemap"; sourceTree = "<group>"; };
 		A81B9E381A5CDC3A2B6C3312C27A57DD /* Pods-DemoTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTest_Example-Info.plist"; sourceTree = "<group>"; };
 		BA8D846FE2EBDE5CDF8C1A631793D847 /* DemoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DemoTest.release.xcconfig; sourceTree = "<group>"; };
-		C22BE24FE120C27D3095FADA8F6FA634 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DemoTest/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C92E2394CBE8B87A64A0FD83B8A18D64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D13A7A64AB076CDD2B9216768F134EA8 /* Pods-DemoTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E1A841A99ABAE0428E8EE819F28BD66F /* Pods-DemoTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoTest_Example-dummy.m"; sourceTree = "<group>"; };
@@ -115,6 +119,17 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/DemoTest";
+			sourceTree = "<group>";
+		};
+		1DE496662435EBFA002607A5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1DE496672435EBFA002607A5 /* Bat.swift */,
+				1DE496682435EBFA002607A5 /* .gitkeep */,
+				1DE496692435EBFA002607A5 /* BatteryView.swift */,
+				1DE4966A2435EBFA002607A5 /* ReplaceMe.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		64D126792EAA7BB42ADFE068C8EDD66E /* Pod */ = {
@@ -184,8 +199,7 @@
 		E765B2D22BBE8CEADBC273E16060D695 /* DemoTest */ = {
 			isa = PBXGroup;
 			children = (
-				1DE4965E2435EA65002607A5 /* BatteryView.swift */,
-				C22BE24FE120C27D3095FADA8F6FA634 /* ReplaceMe.swift */,
+				1DE496662435EBFA002607A5 /* Classes */,
 				64D126792EAA7BB42ADFE068C8EDD66E /* Pod */,
 				019A8F12ECF716DA6778811A628BD02D /* Support Files */,
 			);
@@ -360,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE4966C2435EBFA002607A5 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,9 +401,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DE4965F2435EA65002607A5 /* BatteryView.swift in Sources */,
 				28AA0EEC90ED194A062E97F19586A4A1 /* DemoTest-dummy.m in Sources */,
-				9F66EDAEE1B211990105A4E90822AD66 /* ReplaceMe.swift in Sources */,
+				1DE4966B2435EBFA002607A5 /* Bat.swift in Sources */,
+				1DE4966D2435EBFA002607A5 /* BatteryView.swift in Sources */,
+				1DE4966E2435EBFA002607A5 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
